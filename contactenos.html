@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Jonathan Foronda</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--Fuente de Google-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap" rel="stylesheet">
+    <!--Conexión a la carpeta CSS-->
+    <link rel="stylesheet" href="style.css">
+</head> 
+<header>
+  <div class="container">
+      <nav class="nav-main">
+          <div class="cont-izq">
+              <img src="imagenes/logo 1 Jonathan.png" alt="" class="nav-brand">
+          </div>
+          <div class="cont-der">
+            <ul class="nav-menu">  
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Productos</a>
+                      <ul class="nav-item">
+                          <li><a href="productos.html">Empanadas</a></li>
+                          <li><a href="productos.html">Papas Rellenas</a></li>
+                          <li><a href="productos.html">Pasteles de Pollo</a></li>
+                          <li><a href="productos.html">Arepas de Huevo</a></li>
+                          <li><a href="productos.html">Tortas de Carne</a></li>
+                          <li><a href="productos.html">Tortas de Pescado</a></li>
+                      </ul>
+                </li>
+                <li>
+                    <a href="contactenos.html">Contactenos</a>
+                </li>
+            </ul>
+        </div>  
+      </nav>
+  </div>
+</header>
+<body>
+    <div class="container-contact">
+        <div class="box-contact">
+            <div class="contact">
+                <div class="contact1">
+                    <i class="fas fa-phone"></i>
+                    <h4> Hablanos</h4>
+                    <p><b>(+574) 301-403-64-84</b></p>
+                    <br>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4> Nos encontramos en </h4>
+                    <p><b>
+                        Cra 85 N° 98 d 15.
+                        <br>
+                        Barrio El Picacho.
+                        <br>
+                        Medellín - Antioquía.
+                    </b> 
+                    </p>
+                    <br>
+                    <i class="fas fa-envelope"></i>
+                    <h4>Escribenos a:</h4>
+                    <p><b>jforondaospina@gmail.com</b></p>
+                </div>
+                <div class="contac1">
+                    <img src="imagenes/logo 2 Jonathan.PNG" alt="" width="100%" >
+                </div>
+            </div>
+            <div class="contact-form">
+                <form method="GET" action="envioOK.html">
+                    <label>Dinos tú Nombre*</label>
+                    <br>
+                    <input type="text" name="nombre" placeholder="Ingresa aquí tú Nombre" required>
+                    <br>
+                    <input type="text" name="apellido" placeholder="Ingresa aquí tú Apellido" required>
+                    <br>
+                    <label>Selecciona tú Fecha de Nacimiento*</label>
+                    <br>
+                    <input type="date" name="fecha" required>
+                    <br>
+                    <label>Selecciona tú Sexo</label>
+                    <br>
+                    <select name="sexo" id="" required>
+                        <option value="femenino">Fémenino</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="otros">Otro</option>
+                    </select>
+                    <br>
+                    <label>Ingresa tú Número de Contacto*</label>
+                    <br>
+                    <input type="tel" name="telefono" placeholder="P. ej: 333-333-33-33" required>
+                    <br>
+                    <label>Introduce tú Correo Electrónico*</label>
+                    <br>
+                    <input type="email" name="email" placeholder="P. ej: ejemplo@email.com" required>
+                    <br>
+                    <label>Mensaje*</label>
+                    <br>
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Dejanos aquí tú mensaje" required></textarea>
+                    <br>
+                    <button type="submit" name="enviar" id="" value="Enviar">Enviar</button>
+
+                  </form>
+            </div>
+        </div>
+        <div class="box-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.71808236051!2d-75.58627128573389!3d6.300725927462283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442eda9dcac9ab%3A0xfbeeb68b474a01f8!2sCra.%2085%20%2398d-15%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1604368892397!5m2!1ses!2sco" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        </div> 
+</body>
+</html>
